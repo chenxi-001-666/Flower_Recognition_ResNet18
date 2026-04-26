@@ -1,0 +1,15 @@
+# 排除虚拟环境
+.venv/
+venv/
+env/
+
+# 排除数据集和大型权重文件 (GitHub 单个文件限制 100MB)
+data/
+*.pth
+*.tgz
+*.mat
+
+# 排除 PyCharm 和系统缓存
+.idea/
+__pycache__/
+.ipynb_checkpoints/
